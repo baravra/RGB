@@ -1,0 +1,306 @@
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+hr{
+  width: 70%;
+}
+.color{
+  width: 30%;
+  margin-left: 35%;
+  height: 30vh;
+  background-color: black;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.inputs{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5px;
+  height: 30vh;
+  box-shadow: 5px 5px 5px 5px gray;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+}
+.item{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 2%;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+.total{
+  width: 100%;
+}
+.inp{
+  width: 50%;
+  padding: 4px;
+}
+
+/*-----------RANGE RED-----------*/
+.red {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+.red:focus {
+  outline: none;
+}
+.red::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: #e8161c;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.red::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.5px;
+}
+.red:focus::-webkit-slider-runnable-track {
+  background: #e8161c;
+}
+.red::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: #e8161c;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.red::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.red::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.red::-ms-fill-lower {
+  background: #e8161c;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.red::-ms-fill-upper {
+  background: #e8161c;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.red::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.red:focus::-ms-fill-lower {
+  background: #e8161c;
+}
+.red:focus::-ms-fill-upper {
+  background: #e8161c;
+}
+
+/*---------------------RANGE GREEN------------------------*/
+
+
+.green {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+.green:focus {
+  outline: none;
+}
+.green::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: green;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.green::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.5px;
+}
+.green:focus::-webkit-slider-runnable-track {
+  background: green;
+}
+.green::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: green;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.green::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.green::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.green::-ms-fill-lower {
+  background: green;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.green::-ms-fill-upper {
+  background: green;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.green::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.green:focus::-ms-fill-lower {
+  background: green;
+}
+.green:focus::-ms-fill-upper {
+  background: green;
+}
+
+
+
+/*---------------------RANGE GREEN------------------------*/
+
+
+.blue {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+.blue:focus {
+  outline: none;
+}
+.blue::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: blue;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.blue::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.5px;
+}
+.blue:focus::-webkit-slider-runnable-track {
+  background: blue;
+}
+.blue::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: blue;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+.blue::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.blue::-ms-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.blue::-ms-fill-lower {
+  background: blue;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.blue::-ms-fill-upper {
+  background: blue;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.blue::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.blue:focus::-ms-fill-lower {
+  background: blue;
+}
+.blue:focus::-ms-fill-upper {
+  background: blue;
+}

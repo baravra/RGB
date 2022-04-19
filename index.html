@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <hr>
+    <h2>Color Picker</h2>
+    <hr>
+
+    <div >
+        <div class="color" id="color">
+
+        </div>
+        <div class="inputs" id="inputs">
+            <div class="item">
+                <div>(R) Vermelho</div>
+                <div class="total">
+                    <input type="range" min="0" max="255" value="0" id="rangeRed" style="width: 100%;" class="red" >
+                </div>
+                <div>
+                    <input value="0" type="text" id="textRed" class="inp" disabled style="text-align: center;">
+                </div>
+            </div>
+            <div class="item">
+                <div>(G) Verde</div>
+                <div class="total">
+                    <input type="range" min="0" max="255" value="0" id="rangeGreen" style="width: 100%;" class="green" >
+                </div>
+                <div>
+                    <input value="0" type="text" id="textGreen" class="inp" disabled style="text-align: center;">
+                </div>
+            </div>
+            <div class="item">
+                <div>(B) Azul</div>
+                <div class="total">
+                    <input type="range" min="0" max="255" value="0" id="rangeBlue" style="width: 100%;" class="blue" >
+                </div>
+                <div>
+                    <input value="0" type="text" id="textBlue" class="inp" disabled style="text-align: center;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
